@@ -7,6 +7,11 @@ const splashScreen = {
   duration: 2000,
 };
 
+/* =================== ILLUSTRATION =================== */
+const illustration = {
+  animated: true,
+};
+
 /* =================== HERO / GREETING =================== */
 const greeting = {
   title: "Hello! I'm Kanav Chauhan 👋",
@@ -267,6 +272,7 @@ const twitterDetails = {
 };
 
 export {
+  illustration,
   splashScreen,
   greeting,
   socialMediaLinks,
