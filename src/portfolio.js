@@ -1,335 +1,376 @@
-import emoji from "react-easy-emoji";
-import splashAnimation from "./assets/lottie/splashAnimation";
+/* Change this file to get your personal Portfolio */
 
-/* =================== SPLASH SCREEN =================== */
+// To change portfolio colors globally go to the  _globalColor.scss file
+
+import emoji from "react-easy-emoji";
+import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
+
+// Splash Screen
+
 const splashScreen = {
   enabled: true, // set false to disable splash screen
   animation: splashAnimation,
   duration: 2000 // Set animation duration as per your animation
 };
 
-/* =================== ILLUSTRATION =================== */
+// Summary And Greeting Section
+
 const illustration = {
-  animated: true,
+  animated: true // Set to false to use static SVG
 };
 
-/* =================== HERO / GREETING =================== */
 const greeting = {
-  title: "Hello! I'm Kanav Chauhan 👋",
+  username: "Kanav Chauhan",
+  title: "Hi all, I'm Kanav",
   subTitle: emoji(
-    "AI & Full Stack Developer 🚀 | Building Smart Digital Products"
+    "A passionate AI & Full Stack Developer 🚀 building smart digital products with Python / HTML / CSS / Streamlit / AI APIs and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/uc?export=download&id=16wmeZ41b45X6tye57eGSu7mQlik5QNzl",
-  displayGreeting: true
+    "https://drive.google.com/uc?export=download&id=16wmeZ41b45X6tye57eGSu7mQlik5QNzl", // Set to empty to hide the button
+  displayGreeting: true // Set false to hide this section, defaults to true
 };
 
-/* ===================== SOCIALS ===================== */
+// Social Media Links
+
 const socialMediaLinks = {
   github: "https://github.com/KanavChauhan23",
   linkedin: "https://www.linkedin.com/in/kanavchauhan23/",
-  youtube: "https://youtube.com/@TranquilpathwayMindset",
   gmail: "kanavchauhan23@gmail.com",
-  display: true
+  youtube: "https://youtube.com/@TranquilpathwayMindset",
+  // Instagram, Twitter and Kaggle are also supported in the links!
+  // To customize icons and social links, tweak src/components/SocialMedia
+  display: true // Set true to display this section, defaults to false
 };
 
-/* =================== SKILLS =================== */
-const skillsSection = {
-  title: "Technical Skills",
-  subTitle: "Full Stack, AI, Cloud & Web Technologies",
+// Skills Section
 
+const skillsSection = {
+  title: "What I do",
+  subTitle: "AI & FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Python | AI | Machine Learning"),
-    emoji("⚡ HTML5, CSS3, Bootstrap, Streamlit"),
-    emoji("⚡ APIs & Backend Integrations"),
-    emoji("⚡ OpenAI, Groq AI, Google API"),
-    emoji("⚡ Git & GitHub Workflow"),
-    emoji("⚡ Problem Solving | Communication | Teamwork"),
+    emoji(
+      "⚡ Develop AI-powered applications with Python and modern AI APIs"
+    ),
+    emoji("⚡ Build responsive web applications with HTML5, CSS3, Bootstrap, and Streamlit"),
+    emoji(
+      "⚡ Integration of third party services such as OpenAI, Groq AI, and Google APIs"
+    )
   ],
+
+  /* Make Sure to include correct Font Awesome Classname to view your icon
+https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    { skillName: "Python", fontAwesomeClassname: "logos:python" },
-    { skillName: "HTML5", fontAwesomeClassname: "vscode-icons:file-type-html" },
-    { skillName: "CSS3", fontAwesomeClassname: "vscode-icons:file-type-css" },
-    { skillName: "Bootstrap", fontAwesomeClassname: "logos:bootstrap" },
-    { skillName: "Streamlit", fontAwesomeClassname: "simple-icons:streamlit" },
-    { skillName: "Git", fontAwesomeClassname: "logos:git" },
-    { skillName: "AI APIs", fontAwesomeClassname: "logos:openai" },
+    {
+      skillName: "python",
+      fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "html-5",
+      fontAwesomeClassname: "fab fa-html5"
+    },
+    {
+      skillName: "css3",
+      fontAwesomeClassname: "fab fa-css3-alt"
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "reactjs",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "git",
+      fontAwesomeClassname: "fab fa-git-alt"
+    },
+    {
+      skillName: "bootstrap",
+      fontAwesomeClassname: "fab fa-bootstrap"
+    },
+    {
+      skillName: "aws",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
+    }
   ],
+  display: true // Set false to hide this section, defaults to true
 };
 
-/* =================== PROJECTS =================== */
-const bigProjects = {
-  title: "Big Projects",
-  subtitle: "These are some of my real-world applications",
+// Education Section
 
-  projectCards: [
-    {
-      name: "SmartGhar AI",
-      description:
-        "AI-powered home renovation planner — provides design, layout, cost estimation and material suggestions.",
-      tech: ["Python", "Streamlit", "AI APIs"],
-      github: "https://github.com/KanavChauhan23/smartghar-ai",
-      live: "https://smartghar-ai.streamlit.app/",
-    },
-    {
-      name: "Free API Dev",
-      description:
-        "Free backend API service for developers — test endpoints and fetch data easily.",
-      tech: ["HTML", "Python", "Render"],
-      github: "https://github.com/KanavChauhan23/freeapidev",
-      live: "https://freeapidev.onrender.com/",
-    },
-    {
-      name: "AI Resume Analyzer",
-      description:
-        "AI-based system that analyzes resumes and offers suggestions for improvements.",
-      tech: ["Python", "NLP", "Machine Learning", "Streamlit"],
-      github: "https://github.com/KanavChauhan23/AI-Resume-Analyzer",
-      live: "",
-    },
-    {
-      name: "AI Chess Agent",
-      description:
-        "Intelligent chess-playing system using AI algorithms and strategy logic.",
-      tech: ["Python", "Minimax", "Pygame"],
-      github: "https://github.com/KanavChauhan23/ai_chess_agent",
-      live: "https://chessbykanavchauhan.streamlit.app/",
-    },
-    {
-      name: "AI Home Renovation Planner",
-      description:
-        "Home renovation planner with budget estimation and layout visualization.",
-      tech: ["Python", "HTML", "CSS", "AI APIs", "Streamlit"],
-      github:
-        "https://github.com/KanavChauhan23/ai-home-renovation-planner",
-      live: "https://ai-home-renovation-kanavchauhan.streamlit.app/",
-    },
-  ],
-  display: true
-};
-
-/* =================== EXPERIENCE =================== */
-const workExperiences = {
-  title: "Experience",
-  experienceCards: [
-    {
-      role: "Web Designing Summer Trainee",
-      company: "Solitaire Infosys Inc",
-      duration: "May 2024 – Jun 2024",
-      details: [
-        "Completed a 3-week web designing program in collaboration with CGC Landran.",
-        "Learned HTML, CSS, JavaScript, React fundamentals.",
-        "Built responsive layouts and practical UI pages.",
-      ],
-    },
-  ],
-};
-
-/* =================== CERTIFICATIONS =================== */
-const certifications = {
-  title: "Certifications & Courses",
-  cards: [
-    {
-      title: "GPT-3 AI for Developers",
-      issuer: "Infosys Springboard",
-    },
-    {
-      title: "Cyber Security Awareness Quiz",
-      issuer: "MyGov India",
-    },
-    {
-      title: "CSS (Basic) Certificate",
-      issuer: "HackerRank",
-    },
-    {
-      title: "UiPath Automation",
-      issuer: "UiPath Academy",
-    },
-    {
-      title: "Software Conceptual Design",
-      issuer: "NPTEL IIT Bombay",
-    },
-    {
-      title: "AWS Academy Cloud Operations",
-      issuer: "Amazon Web Services",
-    },
-    {
-      title: "Computer Networking",
-      issuer: "Scaler Academy",
-    },
-    {
-      title: "Vertex AI Studio",
-      issuer: "Google Cloud Skills Boost",
-    },
-    {
-      title: "Oracle Cloud HCM Associate",
-      issuer: "Oracle",
-    },
-  ],
-};
-
-/* =================== WHY HIRE ME =================== */
-const whyHireMe = {
-  title: "Why Hire Me?",
-  points: [
-    "Strong AI + Web Development Skills",
-    "Fast Learner & Team Player",
-    "Problem-Solving Mindset",
-    "Good Communication & Professional Work Ethic",
-    "Driven by Innovation & Quality",
-  ],
-};
-
-/* =================== CONTACT =================== */
-const contactInfo = {
-  title: "Contact Me",
-  subtitle: "Let’s build something great together!",
-  email: "kanavchauhan23@gmail.com",
-};
-
-const isHireable = true;
-
-/* =================== OPEN SOURCE =================== */
-const openSource = {
-  showGithubProfile: true,
-  display: true,
-};
-
-/* =================== EDUCATION =================== */
 const educationInfo = {
-  display: true,
-
+  display: true, // Set false to hide this section, defaults to true
   schools: [
     {
       schoolName: "Chandigarh Group of Colleges, Landran",
+      logo: require("./assets/images/stanfordLogo.png"), // You can replace with your college logo
       subHeader: "B.Tech in Computer Science Engineering",
       duration: "2022 - 2026",
       desc: "Focused on AI, Web Development, and Cloud Computing.",
       descBullets: [
-        "Completed multiple real-world projects",
-        "Continuously improving skills through online courses and practice",
-      ],
-    },
-  ],
+        "Completed multiple real-world projects in AI and web development",
+        "Continuously improving skills through online courses and practice"
+      ]
+    }
+  ]
 };
 
+// Your top 3 proficient stacks/tech experience
 
-/* =================== TECH STACK =================== */
 const techStack = {
-  viewSkillBars: true,
+  viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend",
-      progressPercentage: "75%",
+      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      progressPercentage: "75%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%",
+      progressPercentage: "70%"
     },
     {
       Stack: "AI / ML",
-      progressPercentage: "80%",
-    },
+      progressPercentage: "80%"
+    }
   ],
-  displayCodersrank: false,
+  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
-/* =================== ACHIEVEMENTS =================== */
+// Work experience section
+
+const workExperiences = {
+  display: true, //Set it to true to show workExperiences Section
+  experience: [
+    {
+      role: "Web Designing Summer Trainee",
+      company: "Solitaire Infosys Inc",
+      companylogo: require("./assets/images/quoraLogo.png"), // You can replace with actual company logo
+      date: "May 2024 – Jun 2024",
+      desc: "Completed a 3-week web designing program in collaboration with CGC Landran.",
+      descBullets: [
+        "Learned HTML, CSS, JavaScript, React fundamentals",
+        "Built responsive layouts and practical UI pages"
+      ]
+    }
+  ]
+};
+
+/* Your Open Source Section to View Your Github Pinned Projects
+To know how to get github key look at readme.md */
+
+const openSource = {
+  showGithubProfile: "true",
+  display: false // HIDDEN - Set to false to hide this section
+};
+
+// Some big projects you have worked on
+
+const bigProjects = {
+  title: "Big Projects",
+  subtitle: "REAL-WORLD APPLICATIONS THAT I'VE BUILT",
+  projects: [
+    {
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "SmartGhar AI",
+      projectDesc: "AI-powered home renovation planner — provides design, layout, cost estimation and material suggestions.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://smartghar-ai.streamlit.app/"
+        },
+        {
+          name: "GitHub",
+          url: "https://github.com/KanavChauhan23/smartghar-ai"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "Free API Dev",
+      projectDesc: "Free backend API service for developers — test endpoints and fetch data easily.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://freeapidev.onrender.com/"
+        },
+        {
+          name: "GitHub",
+          url: "https://github.com/KanavChauhan23/freeapidev"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "AI Resume Analyzer",
+      projectDesc: "AI-based system that analyzes resumes and offers suggestions for improvements using NLP and Machine Learning.",
+      footerLink: [
+        {
+          name: "GitHub",
+          url: "https://github.com/KanavChauhan23/AI-Resume-Analyzer"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/nextuLogo.webp"),
+      projectName: "AI Chess Agent",
+      projectDesc: "Intelligent chess-playing system using AI algorithms, Minimax strategy, and Pygame for visualization.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://chessbykanavchauhan.streamlit.app/"
+        },
+        {
+          name: "GitHub",
+          url: "https://github.com/KanavChauhan23/ai_chess_agent"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "AI Home Renovation Planner",
+      projectDesc: "Home renovation planner with budget estimation and layout visualization powered by AI.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://ai-home-renovation-kanavchauhan.streamlit.app/"
+        },
+        {
+          name: "GitHub",
+          url: "https://github.com/KanavChauhan23/ai-home-renovation-planner"
+        }
+      ]
+    }
+  ],
+  display: true // Set false to hide this section, defaults to true
+};
+
+// Achievement Section
+// Include certificates, talks etc
+
 const achievementSection = {
-  title: "Achievements & Certifications",
-  subtitle: "My Certifications and Professional Learning",
+  title: emoji("Achievements And Certifications 🏆 "),
+  subtitle:
+    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
       title: "AWS Academy Cloud Operations",
-      subtitle: "Amazon Web Services",
+      subtitle:
+        "Successfully completed AWS Academy Cloud Operations certification from Amazon Web Services.",
+      image: require("./assets/images/pwaLogo.webp"),
+      imageAlt: "AWS Logo",
       footerLink: [
         {
-          name: "Certificate",
-          url: "",
-        },
-      ],
+          name: "Certification",
+          url: ""
+        }
+      ]
     },
     {
-      title: "GPT-3 for Developers",
-      subtitle: "Infosys Springboard",
+      title: "GPT-3 AI for Developers",
+      subtitle:
+        "Completed advanced certification course on GPT-3 AI development from Infosys Springboard.",
+      image: require("./assets/images/googleAssistantLogo.webp"),
+      imageAlt: "Infosys Logo",
       footerLink: [
         {
-          name: "Certificate",
-          url: "",
-        },
-      ],
+          name: "Certification",
+          url: ""
+        }
+      ]
     },
     {
       title: "NPTEL Software Conceptual Design",
-      subtitle: "IIT Bombay",
+      subtitle: "Completed certification from IIT Bombay on Software Conceptual Design principles.",
+      image: require("./assets/images/codeInLogo.webp"),
+      imageAlt: "NPTEL Logo",
       footerLink: [
-        {
-          name: "Certificate",
-          url: "",
-        },
-      ],
+        {name: "Certification", url: ""}
+      ]
     },
     {
       title: "NVIDIA AI on Jetson Nano",
-      subtitle: "NVIDIA",
+      subtitle: "Completed NVIDIA certification on AI development using Jetson Nano platform.",
+      image: require("./assets/images/pwaLogo.webp"),
+      imageAlt: "NVIDIA Logo",
       footerLink: [
-        {
-          name: "Certificate",
-          url: "",
-        },
-      ],
-    },
+        {name: "Certification", url: ""}
+      ]
+    }
   ],
-
-  display: true,
+  display: true // Set false to hide this section, defaults to true
 };
 
+// Blogs Section
 
-/* =================== BLOGS =================== */
 const blogSection = {
   title: "Blogs",
-  subtitle: "Coming soon...",
-  displayMediumBlogs: false,
+  subtitle:
+    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+  displayMediumBlogs: "false",
   blogs: [],
-  display: false,
+  display: false // HIDDEN - Set false to hide this section
 };
 
-/* =================== TALKS =================== */
+// Talks Sections
+
 const talkSection = {
-  title: "Talks",
-  subtitle: "",
+  title: "TALKS",
+  subtitle: emoji(
+    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+  ),
+
   talks: [],
-  display: false,
+  display: false // HIDDEN - Set false to hide this section
 };
 
-/* =================== PODCAST =================== */
+// Podcast Section
+
 const podcastSection = {
-  title: "Podcast",
-  subtitle: "",
+  title: emoji("Podcast 🎙️"),
+  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
+
+  // Please Provide with Your Podcast embeded Link
   podcast: [],
-  display: false,
+  display: false // Set false to hide this section, defaults to true
 };
 
-/* =================== RESUME SECTION =================== */
+// Resume Section
 const resumeSection = {
   title: "Resume",
-  subtitle: "Download my resume",
-  display: true,
+  subtitle: "Feel free to download my resume",
+
+  // Please Provide with Your Podcast embeded Link
+  display: true // Set false to hide this section, defaults to true
 };
 
-/* =================== TWITTER =================== */
-const twitterDetails = {
-  userName: "",
-  display: false,
+const contactInfo = {
+  title: emoji("Contact Me ☎️"),
+  subtitle:
+    "Discuss a project or just want to say hi? My Inbox is open for all.",
+  number: "+91-XXXXXXXXXX", // Add your phone number here
+  email_address: "kanavchauhan23@gmail.com"
 };
+
+// Twitter Section
+
+const twitterDetails = {
+  userName: "twitter", //Replace "twitter" with your twitter username without @
+  display: false // Set true to display this section, defaults to false
+};
+
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
-  splashScreen,
   greeting,
   socialMediaLinks,
+  splashScreen,
   skillsSection,
   educationInfo,
   techStack,
@@ -340,12 +381,8 @@ export {
   blogSection,
   talkSection,
   podcastSection,
-  resumeSection,
-  twitterDetails,
-  certifications,
-  whyHireMe,
   contactInfo,
+  twitterDetails,
   isHireable,
+  resumeSection
 };
-
-
