@@ -172,6 +172,8 @@ const contactInfo = {
   email: "kanavchauhan23@gmail.com",
 };
 
+const isHireable = true;
+
 export {
   greeting,
   socialMediaLinks,
@@ -181,4 +183,5 @@ export {
   certifications,
   whyHireMe,
   contactInfo,
+  isHireable,
 };
