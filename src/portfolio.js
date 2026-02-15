@@ -213,6 +213,52 @@ const techStack = {
   displayCodersrank: false,
 };
 
+/* =================== ACHIEVEMENTS =================== */
+const achievementSection = {
+  title: "Achievements & Certifications",
+  subtitle: "My certifications and accomplishments",
+  achievementsCards: [],
+  display: true,
+};
+
+/* =================== BLOGS =================== */
+const blogSection = {
+  title: "Blogs",
+  subtitle: "Coming soon...",
+  displayMediumBlogs: false,
+  blogs: [],
+  display: false,
+};
+
+/* =================== TALKS =================== */
+const talkSection = {
+  title: "Talks",
+  subtitle: "",
+  talks: [],
+  display: false,
+};
+
+/* =================== PODCAST =================== */
+const podcastSection = {
+  title: "Podcast",
+  subtitle: "",
+  podcast: [],
+  display: false,
+};
+
+/* =================== RESUME SECTION =================== */
+const resumeSection = {
+  title: "Resume",
+  subtitle: "Download my resume",
+  display: true,
+};
+
+/* =================== TWITTER =================== */
+const twitterDetails = {
+  userName: "",
+  display: false,
+};
+
 
 export {
   greeting,
@@ -223,6 +269,12 @@ export {
   workExperiences,
   openSource,
   projects,
+  achievementSection,
+  blogSection,
+  talkSection,
+  podcastSection,
+  resumeSection,
+  twitterDetails,
   certifications,
   whyHireMe,
   contactInfo,
