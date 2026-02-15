@@ -90,17 +90,29 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-bootstrap"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
       skillName: "streamlit",
-      fontAwesomeClassname: "fas fa-streamlit"
+      fontAwesomeClassname: "fas fa-chart-line"
     },
      {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
-    }
+    },
+    {
+    skillName: "AI API Integration",
+    fontAwesomeClassname: "fas fa-robot"
+  },
+  {
+    skillName: "OpenAI / Groq APIs",
+    fontAwesomeClassname: "fas fa-brain"
+  },
+  {
+    skillName: "NLP Systems",
+    fontAwesomeClassname: "fas fa-language"
+  },
+  {
+    skillName: "Resume Analysis AI",
+    fontAwesomeClassname: "fas fa-file-alt"
+  }    
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -141,7 +153,7 @@ const educationInfo = {
       desc: "Completed secondary education with excellent academic performance.",
       descBullets: [
         "Developed strong analytical and problem-solving skills",
-        "Maintained consistent academic record"
+        "Gained foundational knowledge in computer science concepts"
       ]
     }
   ]
