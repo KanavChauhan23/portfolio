@@ -1,10 +1,11 @@
 import emoji from "react-easy-emoji";
+import splashAnimation from "./assets/lottie/splashAnimation";
 
 /* =================== SPLASH SCREEN =================== */
 const splashScreen = {
-  enabled: false,
-  animation: null,
-  duration: 2000,
+  enabled: true, // set false to disable splash screen
+  animation: splashAnimation,
+  duration: 2000 // Set animation duration as per your animation
 };
 
 /* =================== ILLUSTRATION =================== */
@@ -20,6 +21,7 @@ const greeting = {
   ),
   resumeLink:
     "https://drive.google.com/uc?export=download&id=16wmeZ41b45X6tye57eGSu7mQlik5QNzl",
+  displayGreeting: true
 };
 
 /* ===================== SOCIALS ===================== */
@@ -28,6 +30,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/kanavchauhan23/",
   youtube: "https://youtube.com/@TranquilpathwayMindset",
   gmail: "kanavchauhan23@gmail.com",
+  display: true
 };
 
 /* =================== SKILLS =================== */
@@ -57,7 +60,7 @@ const skillsSection = {
 
 /* =================== PROJECTS =================== */
 const bigProjects = {
-  title: "Projects Showcase",
+  title: "Big Projects",
   subtitle: "These are some of my real-world applications",
 
   projectCards: [
@@ -103,6 +106,7 @@ const bigProjects = {
       live: "https://ai-home-renovation-kanavchauhan.streamlit.app/",
     },
   ],
+  display: true
 };
 
 /* =================== EXPERIENCE =================== */
