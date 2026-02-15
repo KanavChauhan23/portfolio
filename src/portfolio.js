@@ -1,5 +1,12 @@
 import emoji from "react-easy-emoji";
 
+/* =================== SPLASH SCREEN =================== */
+const splashScreen = {
+  enabled: false,
+  animation: null,
+  duration: 2000,
+};
+
 /* =================== HERO / GREETING =================== */
 const greeting = {
   title: "Hello! I'm Kanav Chauhan 👋",
@@ -259,8 +266,8 @@ const twitterDetails = {
   display: false,
 };
 
-
 export {
+  splashScreen,
   greeting,
   socialMediaLinks,
   skillsSection,
