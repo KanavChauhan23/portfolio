@@ -106,7 +106,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - GitHub: [@KanavChauhan23](https://github.com/KanavChauhan23)
 - LinkedIn: [kanavchauhan23](https://www.linkedin.com/in/kanavchauhan23/)
 - Email: kanavchauhan23@gmail.com
-- YouTube: [@TranquilpathwayMindset](https://youtube.com/@TranquilpathwayMindset)
 
 ## 🙏 Acknowledgments
 
