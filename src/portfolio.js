@@ -112,7 +112,11 @@ https://fontawesome.com/icons?d=gallery */
   {
     skillName: "Resume Analysis AI",
     fontAwesomeClassname: "fas fa-file-alt"
-  }    
+  },
+  {
+    skillName: "AWS",
+    fontAwesomeClassname: "fab fa-aws"
+  }
   ],
   display: true // Set false to hide this section, defaults to true
 };
