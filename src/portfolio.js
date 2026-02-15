@@ -304,13 +304,13 @@ const achievementSection = {
     {
       title: "AWS Academy Cloud Operations",
       subtitle:
-        "Successfully completed AWS Academy Cloud Operations certification from Amazon Web Services.",
+        "Completed AWS Academy Cloud Operations certification from Amazon Web Services.",
       image: require("./assets/images/aws.jpg"),
       imageAlt: "AWS Logo",
       footerLink: [
         {
           name: "Certification",
-          url: ""
+          url: "https://drive.google.com/file/d/1XX2xJeHFrob3jwpnp7RreZi97uijCWlD/view?usp=sharing"
         }
       ]
     },
@@ -323,7 +323,7 @@ const achievementSection = {
       footerLink: [
         {
           name: "Certification",
-          url: ""
+          url: "https://drive.google.com/file/d/1VNaER6Z-TypiA1rqV4Jlz3v-E5Wf0ZAX/view?usp=sharing"
         }
       ]
     },
@@ -333,7 +333,7 @@ const achievementSection = {
       image: require("./assets/images/nptl.png"),
       imageAlt: "NPTEL Logo",
       footerLink: [
-        {name: "Certification", url: ""}
+        {name: "Certification", url: "https://drive.google.com/file/d/12JbDhRThrIeGTcca6LfTh3_EpntV7Phj/view?usp=sharing"}
       ]
     },
     {
@@ -342,9 +342,21 @@ const achievementSection = {
       image: require("./assets/images/nvi.png"),
       imageAlt: "NVIDIA Logo",
       footerLink: [
-        {name: "Certification", url: ""}
+        {name: "Certification", url: "https://drive.google.com/file/d/1-Hjd4AsxpzSncWi8XbRD2uL1armHv1lp/view?usp=sharing"}
       ]
+    },
+    {
+  title: "Oracle Fusion Cloud ERP Foundations Certified Associate",
+  subtitle: "Completed Oracle University certification in Enterprise Resource Planning and Cloud Applications.",
+  image: require("./assets/images/oracle.png"), // Make sure this image exists
+  imageAlt: "Oracle Logo",
+  footerLink: [
+    {
+      name: "Certification",
+      url: "https://drive.google.com/file/d/1z0dQBfVsIPzTTUl7CeNRVRTV0cOLvj7E/view?usp=sharing"
     }
+  ]
+}
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -396,7 +408,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+91-XXXXXXXXXX", // Add your phone number here
+  // number: "+91-XXXXXXXXXX", // Add your phone number here
   email_address: "kanavchauhan23@gmail.com"
 };
 
