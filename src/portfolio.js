@@ -193,7 +193,7 @@ const workExperiences = {
     {
       role: "Web Designing Summer Trainee",
       company: "Solitaire Infosys Inc",
-      companylogo: require("./assets/images/quoraLogo.png"), // You can replace with actual company logo
+      companylogo: require("./assets/images/solit.jpg"), // You can replace with actual company logo
       date: "May 2024 – Jun 2024",
       desc: "Completed a 3-week web designing program in collaboration with Chandigarh Group of Colleges, Landran.",
       descBullets: [
@@ -219,7 +219,7 @@ const bigProjects = {
   subtitle: "REAL-WORLD APPLICATIONS THAT I'VE BUILT",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/smart.jpg"),
       projectName: "SmartGhar AI",
       projectDesc: "AI-powered home renovation planner — provides design, layout, cost estimation and material suggestions.",
       footerLink: [
@@ -234,7 +234,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/api.avif"),
       projectName: "Free API Dev",
       projectDesc: "Free backend API service for developers — test endpoints and fetch data easily.",
       footerLink: [
@@ -249,7 +249,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/airesume.jpg"),
       projectName: "AI Resume Analyzer",
       projectDesc: "AI-based system that analyzes resumes and offers suggestions for improvements using NLP and Machine Learning.",
       footerLink: [
@@ -260,7 +260,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
+      image: require("./assets/images/chess.png"),
       projectName: "AI Chess Agent",
       projectDesc: "Intelligent chess-playing system using AI algorithms, Minimax strategy, and Pygame for visualization.",
       footerLink: [
@@ -275,7 +275,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
+      image: require("./assets/images/planner.jpeg"),
       projectName: "AI Home Renovation Planner",
       projectDesc: "Home renovation planner with budget estimation and layout visualization powered by AI.",
       footerLink: [
@@ -306,7 +306,7 @@ const achievementSection = {
       title: "AWS Academy Cloud Operations",
       subtitle:
         "Successfully completed AWS Academy Cloud Operations certification from Amazon Web Services.",
-      image: require("./assets/images/pwaLogo.webp"),
+      image: require("./assets/images/aws.jpg"),
       imageAlt: "AWS Logo",
       footerLink: [
         {
@@ -319,7 +319,7 @@ const achievementSection = {
       title: "GPT-3 AI for Developers",
       subtitle:
         "Completed advanced certification course on GPT-3 AI development from Infosys Springboard.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+      image: require("./assets/images/gpt.jpg"),
       imageAlt: "Infosys Logo",
       footerLink: [
         {
@@ -331,7 +331,7 @@ const achievementSection = {
     {
       title: "NPTEL Software Conceptual Design",
       subtitle: "Completed certification from IIT Bombay on Software Conceptual Design principles.",
-      image: require("./assets/images/codeInLogo.webp"),
+      image: require("./assets/images/nptl.png"),
       imageAlt: "NPTEL Logo",
       footerLink: [
         {name: "Certification", url: ""}
@@ -340,7 +340,7 @@ const achievementSection = {
     {
       title: "NVIDIA AI on Jetson Nano",
       subtitle: "Completed NVIDIA certification on AI development using Jetson Nano platform.",
-      image: require("./assets/images/pwaLogo.webp"),
+      image: require("./assets/images/nvi.png"),
       imageAlt: "NVIDIA Logo",
       footerLink: [
         {name: "Certification", url: ""}
