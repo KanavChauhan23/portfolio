@@ -23,7 +23,7 @@ const greeting = {
   username: "Kanav Chauhan",
   title: "Hi all, I'm Kanav",
   subTitle: emoji(
-    "A passionate AI & Full Stack Developer 🚀 building smart digital products with Python / HTML / CSS / Streamlit / AI APIs and some other cool libraries and frameworks."
+    "AI & Software Developer 🚀 building smart digital products with Python / HTML / CSS / Js / Streamlit / AI APIs and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/uc?export=download&id=16wmeZ41b45X6tye57eGSu7mQlik5QNzl", // Set to empty to hide the button
@@ -46,12 +46,12 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "AI & FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "AI & SOFTWARE DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop AI-powered applications with Python and modern AI APIs"
     ),
-    emoji("⚡ Build responsive web applications with HTML5, CSS3, Bootstrap, and Streamlit"),
+    emoji("⚡ Build web applications with HTML5, CSS3, Bootstrap, and Streamlit"),
     emoji(
       "⚡ Integration of third party services such as OpenAI, Groq AI, and Google APIs"
     )
@@ -94,6 +94,10 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
+      skillName: "streamlit",
+      fontAwesomeClassname: "fas fa-streamlit"
+    },
+     {
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     }
@@ -108,37 +112,61 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Chandigarh Group of Colleges, Landran",
-      logo: require("./assets/images/stanfordLogo.png"), // You can replace with your college logo
+      logo: require("./assets/images/collegeLogo.png"), // Replace with your college logo
       subHeader: "B.Tech in Computer Science Engineering",
       duration: "2022 - 2026",
       desc: "Focused on AI, Web Development, and Cloud Computing.",
       descBullets: [
+        "Specialized in Artificial Intelligence and modern web technologies",
         "Completed multiple real-world projects in AI and web development",
-        "Continuously improving skills through online courses and practice"
+        "Actively enhancing skills through certifications and self-learning"
+      ]
+    },
+    {
+      schoolName: "Bharti Vidyapeeth Public Sen. Sec. School, Baijnath",
+      logo: require("./assets/images/schoolLogo.png"), // Optional: add school logo
+      subHeader: "XII (Non-Medical) – HPBSE",
+      duration: "2021 - 2022",
+      desc: "Completed higher secondary education with focus on Science stream.",
+      descBullets: [
+        "Studied Physics, Chemistry, and Mathematics",
+        "Built strong foundation for engineering studies"
+      ]
+    },
+    {
+      schoolName: "Bharti Vidyapeeth Public Sen. Sec. School, Baijnath",
+      logo: require("./assets/images/schoolLogo.png"), // Optional: same logo
+      subHeader: "X (Matriculation) – HPBSE",
+      duration: "2019 - 2020",
+      desc: "Completed secondary education with excellent academic performance.",
+      descBullets: [
+        "Developed strong analytical and problem-solving skills",
+        "Maintained consistent academic record"
       ]
     }
   ]
 };
 
+
 // Your top 3 proficient stacks/tech experience
 
 const techStack = {
-  viewSkillBars: true, //Set it to true to show Proficiency Section
+  viewSkillBars: true, // Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "75%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend",
-      progressPercentage: "70%"
-    },
-    {
-      Stack: "AI / ML",
+      Stack: "Frontend / Design (HTML, CSS, JS, React)",
       progressPercentage: "80%"
+    },
+    {
+      Stack: "Backend (Python, APIs, Streamlit)",
+      progressPercentage: "77%"
+    },
+    {
+      Stack: "AI / ML (ML, AI APIs, NLP)",
+      progressPercentage: "65%"
     }
   ],
-  displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
+  displayCodersrank: false // Keep false unless you use CodersRank
 };
 
 // Work experience section
@@ -151,7 +179,7 @@ const workExperiences = {
       company: "Solitaire Infosys Inc",
       companylogo: require("./assets/images/quoraLogo.png"), // You can replace with actual company logo
       date: "May 2024 – Jun 2024",
-      desc: "Completed a 3-week web designing program in collaboration with CGC Landran.",
+      desc: "Completed a 3-week web designing program in collaboration with Chandigarh Group of Colleges, Landran.",
       descBullets: [
         "Learned HTML, CSS, JavaScript, React fundamentals",
         "Built responsive layouts and practical UI pages"
@@ -255,7 +283,7 @@ const bigProjects = {
 const achievementSection = {
   title: emoji("Achievements And Certifications 🏆 "),
   subtitle:
-    "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+    "Achievements, Certifications and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
