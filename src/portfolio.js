@@ -94,7 +94,7 @@ const projects = {
 };
 
 /* =================== EXPERIENCE =================== */
-const experienceSection = {
+const workExperiences = {
   title: "Experience",
   experienceCards: [
     {
@@ -179,9 +179,10 @@ export {
   socialMediaLinks,
   skillsSection,
   projects,
-  experienceSection,
+  workExperiences,
   certifications,
   whyHireMe,
   contactInfo,
   isHireable,
 };
+
