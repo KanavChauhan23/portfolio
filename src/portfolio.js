@@ -51,7 +51,7 @@ const skillsSection = {
 };
 
 /* =================== PROJECTS =================== */
-const projects = {
+const bigProjects = {
   title: "Projects Showcase",
   subtitle: "These are some of my real-world applications",
 
@@ -275,7 +275,7 @@ export {
   techStack,
   workExperiences,
   openSource,
-  projects,
+  bigProjects,
   achievementSection,
   blogSection,
   talkSection,
@@ -287,4 +287,5 @@ export {
   contactInfo,
   isHireable,
 };
+
 
