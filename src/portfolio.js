@@ -174,12 +174,55 @@ const contactInfo = {
 
 const isHireable = true;
 
+/* =================== OPEN SOURCE =================== */
+const openSource = {
+  showGithubProfile: true,
+  display: true,
+};
+
+/* =================== EDUCATION =================== */
+const educationInfo = {
+  display: true,
+  schools: [
+    {
+      schoolName: "Chandigarh Group of Colleges, Landran",
+      subHeader: "B.Tech in Computer Science Engineering",
+      duration: "2022 - 2026",
+      desc: "Undergraduate studies focused on Computer Science and AI.",
+    },
+  ],
+};
+
+/* =================== TECH STACK =================== */
+const techStack = {
+  viewSkillBars: true,
+  experience: [
+    {
+      Stack: "Frontend",
+      progressPercentage: "75%",
+    },
+    {
+      Stack: "Backend",
+      progressPercentage: "70%",
+    },
+    {
+      Stack: "AI / ML",
+      progressPercentage: "80%",
+    },
+  ],
+  displayCodersrank: false,
+};
+
+
 export {
   greeting,
   socialMediaLinks,
   skillsSection,
-  projects,
+  educationInfo,
+  techStack,
   workExperiences,
+  openSource,
+  projects,
   certifications,
   whyHireMe,
   contactInfo,
