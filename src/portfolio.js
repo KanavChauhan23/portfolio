@@ -128,7 +128,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Chandigarh Group of Colleges, Landran",
-      logo: require("./assets/images/cgclogocircle.png"), // Replace with your college logo
+      logo: require("./assets/images/cgc.webp"), // Replace with your college logo
       subHeader: "B.Tech in Computer Science Engineering",
       duration: "2022 - 2026",
       desc: "Focused on AI, Web Development, and Cloud Computing.",
@@ -218,7 +218,7 @@ const bigProjects = {
   subtitle: "REAL-WORLD APPLICATIONS THAT I'VE BUILT",
   projects: [
     {
-      image: require("./assets/images/smart.jpg"),
+      image: require("./assets/images/gharai.png"),
       projectName: "SmartGhar AI",
       projectDesc: "AI-powered home renovation planner — provides design, layout, cost estimation and material suggestions.",
       footerLink: [
@@ -248,7 +248,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/airesume.jpg"),
+      image: require("./assets/images/resume.png"),
       projectName: "AI Resume Analyzer",
       projectDesc: "AI-based system that analyzes resumes and offers suggestions for improvements using NLP and Machine Learning.",
       footerLink: [
@@ -305,7 +305,7 @@ const achievementSection = {
       title: "AWS Academy Cloud Operations",
       subtitle:
         "Completed AWS Academy Cloud Operations certification from Amazon Web Services.",
-      image: require("./assets/images/aws.jpg"),
+      image: require("./assets/images/cloudaws.jpg"),
       imageAlt: "AWS Logo",
       footerLink: [
         {
@@ -348,7 +348,7 @@ const achievementSection = {
     {
   title: "Oracle Fusion Cloud ERP Foundations Certified Associate",
   subtitle: "Completed Oracle University certification in Enterprise Resource Planning and Cloud Applications.",
-  image: require("./assets/images/oracle.png"), // Make sure this image exists
+  image: require("./assets/images/Oracle.png"), // Make sure this image exists
   imageAlt: "Oracle Logo",
   footerLink: [
     {
