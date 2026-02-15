@@ -133,7 +133,6 @@ const educationInfo = {
       duration: "2022 - 2026",
       desc: "Focused on AI, Web Development, and Cloud Computing.",
       descBullets: [
-        "Specialized in Artificial Intelligence and modern web technologies",
         "Completed multiple real-world projects in AI and web development",
         "Actively enhancing skills through certifications and self-learning"
       ]
