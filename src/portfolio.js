@@ -128,7 +128,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Chandigarh Group of Colleges, Landran",
-      logo: require("./assets/images/cgc.webp"), // Replace with your college logo
+      logo: require("./assets/images/cgclogocircle.png"), // Replace with your college logo
       subHeader: "B.Tech in Computer Science Engineering",
       duration: "2022 - 2026",
       desc: "Focused on AI, Web Development, and Cloud Computing.",
