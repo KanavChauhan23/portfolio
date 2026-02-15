@@ -195,15 +195,21 @@ const openSource = {
 /* =================== EDUCATION =================== */
 const educationInfo = {
   display: true,
+
   schools: [
     {
       schoolName: "Chandigarh Group of Colleges, Landran",
       subHeader: "B.Tech in Computer Science Engineering",
       duration: "2022 - 2026",
-      desc: "Undergraduate studies focused on Computer Science and AI.",
+      desc: "Focused on AI, Web Development, and Cloud Computing.",
+      descBullets: [
+        "Completed multiple real-world projects",
+        "Continuously improving skills through online courses and practice",
+      ],
     },
   ],
 };
+
 
 /* =================== TECH STACK =================== */
 const techStack = {
@@ -228,10 +234,54 @@ const techStack = {
 /* =================== ACHIEVEMENTS =================== */
 const achievementSection = {
   title: "Achievements & Certifications",
-  subtitle: "My certifications and accomplishments",
-  achievementsCards: [],
+  subtitle: "My Certifications and Professional Learning",
+
+  achievementsCards: [
+    {
+      title: "AWS Academy Cloud Operations",
+      subtitle: "Amazon Web Services",
+      footerLink: [
+        {
+          name: "Certificate",
+          url: "",
+        },
+      ],
+    },
+    {
+      title: "GPT-3 for Developers",
+      subtitle: "Infosys Springboard",
+      footerLink: [
+        {
+          name: "Certificate",
+          url: "",
+        },
+      ],
+    },
+    {
+      title: "NPTEL Software Conceptual Design",
+      subtitle: "IIT Bombay",
+      footerLink: [
+        {
+          name: "Certificate",
+          url: "",
+        },
+      ],
+    },
+    {
+      title: "NVIDIA AI on Jetson Nano",
+      subtitle: "NVIDIA",
+      footerLink: [
+        {
+          name: "Certificate",
+          url: "",
+        },
+      ],
+    },
+  ],
+
   display: true,
 };
+
 
 /* =================== BLOGS =================== */
 const blogSection = {
