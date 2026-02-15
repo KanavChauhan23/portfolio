@@ -124,7 +124,7 @@ const educationInfo = {
     },
     {
       schoolName: "Bharti Vidyapeeth Public Sen. Sec. School, Baijnath",
-      logo: require("./assets/images/schoolLogo.png"), // Optional: add school logo
+      logo: require("./assets/images/school.png"), // Optional: add school logo
       subHeader: "XII (Non-Medical) – HPBSE",
       duration: "2021 - 2022",
       desc: "Completed higher secondary education with focus on Science stream.",
@@ -135,7 +135,7 @@ const educationInfo = {
     },
     {
       schoolName: "Bharti Vidyapeeth Public Sen. Sec. School, Baijnath",
-      logo: require("./assets/images/schoolLogo.png"), // Optional: same logo
+      logo: require("./assets/images/school.png"), // Optional: same logo
       subHeader: "X (Matriculation) – HPBSE",
       duration: "2019 - 2020",
       desc: "Completed secondary education with excellent academic performance.",
