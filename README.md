@@ -6,7 +6,7 @@
 
 ## 🚀 Live Demo
 
-[View Live Portfolio](https://kanav-public.netlify.app/)
+[View Live Portfolio](https://kanavportfolio.vercel.app/)
 
 ## 📌 About
 
