@@ -218,7 +218,7 @@ const bigProjects = {
   subtitle: "REAL-WORLD APPLICATIONS THAT I'VE BUILT",
   projects: [
     {
-      image: require("./assets/images/gharai.png"),
+      image: require("./assets/images/GHAR.png"),
       projectName: "SmartGhar AI",
       projectDesc: "AI-powered home renovation planner — provides design, layout, cost estimation and material suggestions.",
       footerLink: [
@@ -233,7 +233,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/api.avif"),
+      image: require("./assets/images/API.png"),
       projectName: "Free API Dev",
       projectDesc: "Free backend API service for developers — test endpoints and fetch data easily.",
       footerLink: [
@@ -248,7 +248,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/resume.png"),
+      image: require("./assets/images/CV.png"),
       projectName: "AI Resume Analyzer",
       projectDesc: "AI-based system that analyzes resumes and offers suggestions for improvements using NLP and Machine Learning.",
       footerLink: [
@@ -263,7 +263,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/chess.png"),
+      image: require("./assets/images/CHESS.png"),
       projectName: "AI Chess Agent",
       projectDesc: "Intelligent chess-playing system using AI algorithms, Minimax strategy, and Pygame for visualization.",
       footerLink: [
@@ -278,7 +278,7 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/planner.jpeg"),
+      image: require("./assets/images/home.png"),
       projectName: "AI Home Renovation Planner",
       projectDesc: "Home renovation planner with budget estimation and layout visualization powered by AI.",
       footerLink: [
@@ -309,7 +309,7 @@ const achievementSection = {
       title: "AWS Academy Cloud Operations",
       subtitle:
         "Completed AWS Academy Cloud Operations certification from Amazon Web Services.",
-      image: require("./assets/images/cloudaws.jpg"),
+      image: require("./assets/images/AWS1.png"),
       imageAlt: "AWS Logo",
       footerLink: [
         {
@@ -322,7 +322,7 @@ const achievementSection = {
       title: "GPT-3 AI for Developers",
       subtitle:
         "Completed advanced certification course on GPT-3 AI development from Infosys Springboard.",
-      image: require("./assets/images/gpt.jpg"),
+      image: require("./assets/images/openai.png"),
       imageAlt: "Infosys Logo",
       footerLink: [
         {
@@ -338,6 +338,42 @@ const achievementSection = {
       imageAlt: "NPTEL Logo",
       footerLink: [
         {name: "Certification", url: "https://drive.google.com/file/d/12JbDhRThrIeGTcca6LfTh3_EpntV7Phj/view?usp=sharing"}
+      ]
+    },
+    {
+      title: "UI Path Automation with Studio",
+      subtitle: "Completed course Build your first automation process with Studio.",
+      image: require("./assets/images/Ui.png"),
+      imageAlt: "UI Path Logo",
+      footerLink: [
+        {name: "Certification", url: "https://drive.google.com/file/d/1igmkyft74i84YzAVI9NlPuWWQMl4tJZS/view?usp=sharing"}
+      ]
+    },
+    {
+      title: "Web Designing Technology",
+      subtitle: "Completed Summer Course organised by Chandigarh Group of Colleges.",
+      image: require("./assets/images/logo.png"),
+      imageAlt: "CGC Logo",
+      footerLink: [
+        {name: "Certification", url: "https://drive.google.com/file/d/1d4N6bUPHJZOqY3X6ITM0pJqf8BtMNtZb/view?usp=sharing"}
+      ]
+    },
+     {
+      title: "Internet of Things 101",
+      subtitle: "Successfully Completed the Course on Internet of Things 101 from Infosys Springboard.",
+      image: require("./assets/images/infosys.png"),
+      imageAlt: "IoT Logo",
+      footerLink: [
+        {name: "Certification", url: "https://drive.google.com/file/d/1i6hjwzO5KHmI3iUJijOkhCPonQXjq6CP/view?usp=sharing"}
+      ]
+    },
+     {
+      title: " Computer Networking Course: Master Computer Networking",
+      subtitle: "Successfully Completion of the tutorial: Computer Networking Course: Master Computer Networking",
+      image: require("./assets/images/Scaler.png"),
+      imageAlt: "CGC Logo",
+      footerLink: [
+        {name: "Certification", url: "https://drive.google.com/file/d/1Tg8EzM1yaR0seCzEOWYezvWD8I0XuHzt/view?usp=sharing"}
       ]
     },
     {
