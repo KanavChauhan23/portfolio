@@ -322,7 +322,7 @@ const achievementSection = {
       title: "GPT-3 AI for Developers",
       subtitle:
         "Completed advanced certification course on GPT-3 AI development from Infosys Springboard.",
-      image: require("./assets/images/openai.png"),
+      image: require("./assets/images/chatgpt.png"),
       imageAlt: "Infosys Logo",
       footerLink: [
         {
@@ -368,8 +368,8 @@ const achievementSection = {
       ]
     },
      {
-      title: " Computer Networking Course: Master Computer Networking",
-      subtitle: "Successfully Completion of the tutorial: Computer Networking Course: Master Computer Networking",
+      title: " Computer Networking Course",
+      subtitle: "Successfully Completion of Computer Networking Course: Master Computer Networking",
       image: require("./assets/images/Scaler.png"),
       imageAlt: "CGC Logo",
       footerLink: [
