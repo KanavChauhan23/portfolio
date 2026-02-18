@@ -253,6 +253,10 @@ const bigProjects = {
       projectDesc: "AI-based system that analyzes resumes and offers suggestions for improvements using NLP and Machine Learning.",
       footerLink: [
         {
+          name: "Visit Website",
+          url: "https://resumegenius-ai.streamlit.app"
+        },
+        {
           name: "GitHub",
           url: "https://github.com/KanavChauhan23/AI-Resume-Analyzer"
         }
@@ -265,7 +269,7 @@ const bigProjects = {
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://chessbykanavchauhan.streamlit.app/"
+          url: "https://ai-chessagent.streamlit.app/"
         },
         {
           name: "GitHub",
